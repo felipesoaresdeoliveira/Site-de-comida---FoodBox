@@ -1,0 +1,69 @@
+body {
+    background: #D5E0EB;
+    font-family: 'Poppins', sans-serif;}
+.topo {
+
+background: red;
+color: white;
+padding: 15px;
+border-radius: 10px;
+
+}
+.produtos {
+background: white;
+color: black;
+padding: 25px;
+border-radius: 10px;
+border: 5px solid white;
+cursor: pointer;
+align-items: center;
+}
+.bebida{
+background: white;
+color: black;
+padding: 25px;
+border-radius: 10px;
+border: 5px solid white;
+cursor: pointer;
+align-items: center;
+}
+.sobremesa{
+background: white;
+color: black;
+padding: 25px;
+border-radius: 10px;
+border: 5px solid white;
+cursor: pointer;
+align-items: center;
+}
+.botao{
+background: green;
+color: white;
+padding: 15px;
+border-radius: 25px;
+cursor: pointer;
+}
+.botao:hover{
+    background-color: #57D938;
+}
+h1 {
+margin: 0;
+}
+h2{
+margin: 0;
+}
+h3{
+margin: 10;
+font-size: 30px;
+margin-bottom: 20px;
+}
+h4{
+margin-top: 0%;
+margin-bottom: 5px;
+font-size: 20;
+}
+img{
+width: 175px;
+border-radius: 10px;
+float: right;
+}
