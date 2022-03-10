@@ -1,73 +1,13 @@
 <html lang="pt_br">
     <head>
         <title>Foodbox</title>
+        <link rel="stylesheet" href="./css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     </head>
-<style>
-    body {
-        background: lightgray;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    }
-.topo {
     
-    background: red;
-    color: white;
-    padding: 15px;
-    border-radius: 10px;
-    
-}
-.produtos {
-background: white;
-color: black;
-padding: 25px;
-border-radius: 10px;
-border: 5px solid white;
-cursor: pointer;
-}
-.bebida{
-    background: white;
-color: black;
-padding: 25px;
-border-radius: 10px;
-border: 5px solid white;
-cursor: pointer;
-}
-.sobremesa{
-    background: white;
-color: black;
-padding: 25px;
-border-radius: 10px;
-border: 5px solid white;
-cursor: pointer;
-}
-.botao{
-    background: green;
-    color: white;
-    padding: 15px;
-    border-radius: 25px;
-    cursor: pointer;
-}
-h1 {
-    margin: 0;
-}
-h2{
-    margin: 0;
-}
-h3{
-    margin: 10;
-    font-size: 30px;
-    margin-bottom: 20px;
-}
-h4{
-    margin-top: 0%;
-    margin-bottom: 5px;
-    font-size: 20;
-}
-img{
-    width: 175px;
-    border-radius: 10px;
-    float: right;
-}
-</style>
+
 <script>
 
 let prato;
@@ -77,27 +17,27 @@ let sobremesa;
 
 
     function escolherFrango(){
-    document.getElementById("frango").style.borderColor = "green";
+    document.getElementById("frango").style.borderColor = "#00AB3C";
     document.getElementById("torre").style.borderColor = "white";
     prato = "frango yin-yang";
     }
     function escolher(){
         document.getElementById("frango").style.borderColor = "white";
-    document.getElementById("torre").style.borderColor = "green";
+    document.getElementById("torre").style.borderColor = "#00AB3C";
     prato = "torre de batatas";
     }
     function escolherBebida(){
-        document.getElementById("agua").style.borderColor = "green";
+        document.getElementById("agua").style.borderColor = "#00AB3C";
         document.getElementById("coca").style.borderColor = "white";
 bebida = "agua";
     }
     function escolherCoca(){
-        document.getElementById("coca").style.borderColor = "green";
+        document.getElementById("coca").style.borderColor = "#00AB3C";
         document.getElementById("agua").style.borderColor = "white";
 bebida = "pepsi"
     }
     function escolherAssai(){
-        document.getElementById("assai").style.borderColor = "green";
+        document.getElementById("assai").style.borderColor = "#00AB3C";
         document.getElementById("milk shake").style.borderColor = "white";
         sobremesa = "barca de assai"
     }
@@ -123,15 +63,15 @@ bebida = "pepsi"
     <body>
         <div class="topo">
         <h1>FoodBox</h1>
-        <h2>Monte sua comida em apenas alguns segundos</h2>
+        <h2>Monte sua comida em 15 miutos!</h2>
         </div>
 <div class="primeiro">
     <h3>Primeiro, seu prato!</h3>
 </div>
      <div id="frango" class="Produtos" onclick="escolherFrango()" ><p>
          <img src="https://static.clubedaanamariabraga.com.br/wp-content/uploads/2020/05/frango-assado-com-alecrim.jpg">
-<h4>fangos assados</h4>
-<p>Descricao: uma porcao de frangos assados!</p>
+<h4>Frango frito</h4>
+<p>Descricao: Uma deliciosa porçao de frangos fritos!</p>
 <p><strong>Valor: R$19,90</strong></p>
      </div><p>
      <div id="torre" class="Produtos" onclick="escolher()" ><p>
@@ -172,7 +112,7 @@ bebida = "pepsi"
     <p><strong> Valor: R$7,00</strong></p>
 </div></p>
 <div class="botao" onclick="finalizarPedido()">
-    <h2>Finalizar pedido!</h2>
+    Finalizar pedido!
 </div>
     </body>
 </html>
